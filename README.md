@@ -21,6 +21,6 @@ Assists in marketing strategies, competitive analysis, content creation guidance
 
 **Interactive Dashboard:** Development of a user-friendly dashboard for custom data visualization and analysis.
 
-# Streamlit APP
+# Streamlit App
 
 https://globalyoutubestatistics.streamlit.app/
