@@ -4,4 +4,4 @@ altair
 numpy
 seaborn
 matplotlib
-plotly_express
+plotly

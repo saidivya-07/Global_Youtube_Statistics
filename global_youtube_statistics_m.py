@@ -5,7 +5,7 @@ import plotly.express as px
 import altair as alt
 
 # Function to load data
-@st.cache_data
+@st.cache
 def load_data():
     data = pd.read_csv('M_Global_YouTube_Statistics.csv')
     return data
