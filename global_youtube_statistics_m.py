@@ -19,7 +19,7 @@ st.title('Global YouTube Channel Analytics')
 # Sidebar for filters
 st.sidebar.title('Filters and Insights')
 selected_category = st.sidebar.selectbox('Select a Category', options=np.insert(df['category'].unique(), 0, 'All'))
-selected_countries = st.sidebar.multiselect('Select Countries', options=df['Country'].unique(), default=df['Country'].unique())
+selected_countries = st.sidebar.multiselect('Select Countries (India is selected by default))', df['Country'].unique(), default= ['India'] )
 
 # Filter data based on the selected category and countries
 if selected_category != 'All':
@@ -165,7 +165,7 @@ with tab3:
 
 with tab4:
     st.subheader("**Top 5 Youtubers**")
-    st.image('https://api.backlinko.com/app/uploads/2021/01/youtube-users-1280x670.webp', caption='Image Caption')
+    st.image('https://api.backlinko.com/app/uploads/2021/01/youtube-users-1280x670.webp', caption='Top Youtubers')
     top5_youtubers = df.nlargest(5, 'subscribers')
     for index, row in top5_youtubers.iterrows():
         wiki_url = f"https://en.wikipedia.org/wiki/{row['Youtuber'].replace(' ', '_')}"
