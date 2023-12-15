@@ -1,6 +1,10 @@
 # Global Youtube Statistics
 This GitHub repository provides comprehensive glimpse into the platform's global influence by analyzing YouTube's global influence, including trends in subscriber counts, video views, earnings, and demographic correlations across different channel categories.
 
+# Streamlit App
+
+https://globalyoutubestatistics.streamlit.app/
+
 # Data Preparation 
 
 **Data Collection:** Gathered from reputable YouTube analytics sources, covering subscriber counts, video views, earnings, and demographics across different channels.
@@ -21,6 +25,4 @@ Assists in marketing strategies, competitive analysis, content creation guidance
 
 **Interactive Dashboard:** Development of a user-friendly dashboard for custom data visualization and analysis.
 
-# Streamlit App
 
-https://globalyoutubestatistics.streamlit.app/
